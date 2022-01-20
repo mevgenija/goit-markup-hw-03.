@@ -30,6 +30,14 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
 .list {
   list-style: none;
 }
@@ -52,6 +60,11 @@ a {
 }
 
 /* -- HEADER -- */
+
+header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .logo {
   font-family: Raleway, sans-serif;
