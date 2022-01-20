@@ -30,6 +30,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -148,6 +152,11 @@ header {
 }
 
 /* ------- FEATURES ------- */
+
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .features-subtitle {
   font-size: 14px;
