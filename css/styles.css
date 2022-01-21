@@ -264,6 +264,11 @@ footer {
 
 /* ----- Портфолио ----- */
 
+.portfolio {
+  margin-top: 93px;
+  margin-bottom: 90px;
+}
+
 .portfolio-button {
   font-family: inherit;
   font-style: normal;
@@ -272,6 +277,10 @@ footer {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.buttons-list {
+  padding-bottom: 35px;
 }
 
 .portfolio-button:hover,
@@ -284,6 +293,11 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+
+.portfolio-list-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .portfolio-text {
