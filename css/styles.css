@@ -201,6 +201,10 @@ header {
 
 /* ------- LINE ------- */
 
+.line-list {
+  display: flex;
+}
+
 .line-title,
 .about-title {
   font-size: 36px;
@@ -208,6 +212,14 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+}
+
+.line-item + .line-item {
+  margin-left: 30px;
+}
+
+.line-item {
+  width: 370px;
 }
 
 /* ----- ABOUT ----- */
