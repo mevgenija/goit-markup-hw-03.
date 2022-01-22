@@ -76,6 +76,7 @@ header {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 93px;
 }
 
 .logo-blk {
@@ -84,6 +85,28 @@ header {
 
 .logo-wht {
   color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item + .header-item {
+  margin-left: 50px;
+}
+
+.header-connect {
+  margin-left: auto;
 }
 
 .header-link {
@@ -119,6 +142,10 @@ header {
 .header-link-mail:hover,
 .header-link-mail:focus {
   color: var(--accent-color);
+}
+
+.header-link-tel {
+  margin-left: 50px;
 }
 
 /* ------- HERO ------- */
