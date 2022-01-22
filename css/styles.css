@@ -245,8 +245,18 @@ header {
   padding-bottom: 94px;
 }
 
+.about-list {
+  display: flex;
+  margin-left: -30px;
+}
+
 .about-item-content {
   padding-top: 30px;
+}
+
+.about-item {
+  width: calc(100% / 3 - 30px);
+  margin-left: 30px;
 }
 
 .about-subtitle {
