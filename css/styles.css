@@ -345,7 +345,11 @@ footer {
 }
 
 .buttons-list {
-  padding-bottom: 35px;
+  display: flex;
+}
+
+.buttons-item + .buttons-item {
+  margin-left: 8px;
 }
 
 .portfolio-button:hover,
