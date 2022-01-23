@@ -350,6 +350,10 @@ footer {
   letter-spacing: 0.03em;
 }
 
+.buttons-container {
+  margin-bottom: 35px;
+}
+
 .buttons-list {
   display: flex;
 }
@@ -380,7 +384,7 @@ footer {
   flex-wrap: wrap;
 }
 .portfolio-item {
-  width: calc(100% / 9 - 30px);
+  width: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
