@@ -348,6 +348,9 @@ footer {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-color: transparent;
 }
 
 .buttons-container {
@@ -356,6 +359,7 @@ footer {
 
 .buttons-list {
   display: flex;
+  justify-content: center;
 }
 
 .buttons-item + .buttons-item {
