@@ -293,6 +293,10 @@ footer {
   color: #2196f3;
 }
 
+.container-logo {
+  margin-bottom: 20px;
+}
+
 .address {
   font-style: normal;
   font-weight: 400;
@@ -325,6 +329,10 @@ footer {
 .footer-link-mail:hover,
 .footer-link-mail:focus {
   color: var(--accent-color);
+}
+
+.footer-item {
+  margin-bottom: 9px;
 }
 
 /* ----- Портфолио ----- */
