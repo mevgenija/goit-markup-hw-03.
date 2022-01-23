@@ -152,6 +152,11 @@ header {
 
 .hero {
   background: #2f303a;
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  align-items: center;
 }
 
 .hero-title {
@@ -176,6 +181,8 @@ header {
   letter-spacing: 0.06em;
   cursor: pointer;
   color: #ffffff;
+  border-color: transparent;
+  border-radius: 4px;
 }
 
 /* ------- FEATURES ------- */
