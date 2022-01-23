@@ -329,6 +329,12 @@ footer {
 
 /* ----- Портфолио ----- */
 
+.box {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+}
+
 .portfolio {
   margin-top: 93px;
   margin-bottom: 90px;
@@ -356,6 +362,26 @@ footer {
 .portfolio-button:focus {
   background: var(--accent-color);
   color: #ffffff;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.frame {
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-list {
+  display: flex;
+  margin-left: -30px;
+  flex-wrap: wrap;
+}
+.portfolio-item {
+  width: calc(100% / 9 - 30px);
+  margin-left: 30px;
 }
 
 .portfolio-subtitle {
