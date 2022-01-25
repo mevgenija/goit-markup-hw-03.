@@ -418,6 +418,10 @@ footer {
   margin-left: 30px;
 }
 
+.portfolio-item:nth-last-child(n + 4) {
+  margin-bottom: 30px;
+}
+
 .portfolio-subtitle {
   font-size: 18px;
   line-height: 2;
