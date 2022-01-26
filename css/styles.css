@@ -234,9 +234,12 @@ header {
 
 /* ------- LINE ------- */
 
+.line {
+  padding-bottom: 94px;
+}
+
 .line-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .line-title,
